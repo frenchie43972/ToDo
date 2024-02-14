@@ -1,0 +1,52 @@
+# General
+*.log
+*.csv
+*.dat
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python/Django-specific
+*.pyc
+__pycache__/
+db.sqlite3
+env/
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+*.mo
+*.pot
+*.db
+
+# Next.js/Node-specific
+/node_modules/
+/.pnp
+.pnp.js
+/.next/
+/out/
+/build/
+.next/cache
+.npm
+.eslintcache
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
