@@ -12,7 +12,8 @@ WORKDIR /code
 
 # Install dependencies
 COPY requirements.txt /code/
-RUN pip install --upgrade pipRUN pip install -r requirements.txt
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
 # Copy the project
 COPY . /code/
